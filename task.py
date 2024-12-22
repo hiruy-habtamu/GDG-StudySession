@@ -1,6 +1,4 @@
-def Sum(nums:list):
-    sum = 0
-    for i in nums:
-        sum+=i
-    return sum
-    
+for i in range(0,21,2):
+    if i is 0:
+        continue
+    print(i)
