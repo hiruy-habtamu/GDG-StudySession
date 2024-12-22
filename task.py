@@ -1,6 +1,4 @@
-def MaxNum(nums:list):
-    num = float('-inf')
-    for i in nums:
-        if num < i:
-            num = i
-    return num
+def WordCount(sentence):
+    sentence_list = sentence.split()
+    for word in sentence_list:
+        print(word + " = " + str(sentence.count(word)))
